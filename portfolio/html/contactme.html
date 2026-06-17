@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+
+        <fieldset>
+            <legend>Contact Me: </legend>
+
+            <table>
+                <tr>
+                    <td><label for="name">First Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name:</label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" >
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" >
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+            </table>
+            </fieldset>
+
+            <br>
+
+               <fieldset>
+                <legend>Services :</legend>
+
+             <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="webdev" name="service" value="webdev">
+                        <label for="webdev">Web Development</label><br>
+                        <input type="checkbox" id="appdev" name="service" value="appdev">
+                        <label for="appdev">AI/ML</label><br>
+                        <input type="checkbox" id="datascience" name="service" value="datascience">
+                        <label for="datascience">Backend
+                            
+                        </label><br>
+                            
+                    </td>
+                </tr>
+             </table>
+            </fieldset>
+            
+            <br>
+
+            <fieldset>
+                <legend>Reason of Contact :</legend>
+
+             <table>
+                <tr>
+                    <td>
+                        <select id="reason" name="reason">
+                            <option>Job</option>
+                            <option>Project</option>
+                            <option>Thesis</option>
+                    </td>
+                </tr>
+             </table>
+            </fieldset>
+            
+            <br>
+
+            <fieldset>
+                <legend>Book Slot:</legend>
+
+                <table>
+                    <tr>
+                        <td><label for="date">Date:</label></td>
+                        <td><input type="date" id="date" name="date"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        
+    </form>
+
+</body>
+</html>
