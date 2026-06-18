@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <h1>Donar Information</h1>
+
+        <table>
+    <tr>
+        <td><label for="name">First Name*</label></td>
+        <td><input type="text" id="name" name="name" required="*"></td>
+    </tr>
+
+    <tr>
+        <td><label for="lastname">Last Name*</label></td>
+        <td><input type="text" id="lastname" name="lastname" required="*"></td>
+    </tr>
+    <tr>
+        <td><label for="company">Company Name*</label></td>
+        <td><input type="text" id="company" name="company" required="*"></td>
+    </tr>
+    <tr>
+        <td><label for="address1">Address 1</label></td>
+        <td><input type="text" id="address1" name="address1"></td>
+    </tr>
+    <tr>
+        <td><label for="address2">Address 2*</label></td>
+        <td><input type="text" id="address2" name="address2" required="*"></td>
+    </tr>
+    <tr>
+        <td><label for="city">City*</label></td>
+        <td><input type="text" id="city" name="city" required="*"></td>
+    </tr>
+    <tr>
+        <td><label for="country">Country*</label></td>
+        <td><select name="country" id="country" required="*">
+            <option value="">Select a country</option>
+            <option value="bd">Bangladesh</option>
+            <option value="ca">Canada</option>
+            <option value="uk">United Kingdom</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td><label for="phone">Phone*</label></td>
+        <td><input type="number" id="phone" name="phone" required="*"></td>
+    </tr>
+<tr>
+    <td><label for="fax">Fax*</label></td>
+    <td><input type="number" id="fax" name="fax" required="*"></td>
+</tr>
+<tr>
+    <td><label for="email">Email*</label></td>
+    <td><input type="email" id="email" name="email" required="*"></td>
+</tr>
+
+            <tr>
+
+        <td><label for="dm">Donation Amount*</label><br><small>(Check a button or type in your amount)</small></br></td>
+                    <td>
+                        <label for="amount">None*</label>
+                        <input type="radio" id="amount" name="amount" value="none">
+                        <label for="amount">$50</label>
+                        <input type="radio" id="amount" name="amount" value="$50">
+                        <label for="amount">$75</label>
+                        <input type="radio" id="amount" name="amount" value="$75">
+                        <label for="amount">$100</label>
+                        <input type="radio" id="amount" name="amount" value="$100">
+                        <label for="amount">$250</label>
+                        <input type="radio" id="amount" name="amount" value="$250">
+                        <label for="amount">Other</label>
+                        <input type="radio" id="amount" name="amount" value="other">
+                    </td>
+                    </tr>
+
+
+                    <tr>
+
+                    <td><label for="otherAmount">Other Amount*</label></td>
+                    <td><input type="number" id="otherAmount" name="otherAmount"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="recurringdonation">Recurring Donation</label><br><small>"Check if yes"</small></td>
+                    <td><input type="checkbox" id="recurringdonation"  value="none" >I am interested in giving on a regular basis</td>
+
+                </tr>
+<tr>
+                    <td><label for="monthlycreditcard">Monthly Credit Card $</label><input type="number" id="monthlycreditcard" name="monthlycreditcard"><label for="For">For$</label><input type="number" id="for" name="for"></td><td><label for="month">Month</label></td>
+                </tr>
+
+            <tr>
+                <td><h2>Honorarium and Memorial Donation Information</h2></td>
+                <td></td>
+            </tr>
+
+  <tr>
+    <td><b>I would like to make this donation</b></td>
+    <td>
+      <input type="radio" name="donationType"> To Honor<br>
+      <input type="radio" name="donationType"> In Memory of
+    </td>
+  </tr>
+
+  <tr>
+    <td><b>Name</b></td>
+    <td><input type="text"></td>
+  </tr>
+
+  <tr>
+    <td><b>Acknowledge Donation to</b></td>
+    <td><input type="text"></td>
+  </tr>
+
+  <tr>
+    <td><b>Address</b></td>
+    <td><input type="text"></td>
+  </tr>
+
+  <tr>
+    <td><b>City</b></td>
+    <td><input type="text"></td>
+  </tr>
+
+  <tr>
+    <td><b>State</b></td>
+    <td>
+      <select>
+        <option>Select a State</option>
+        <option>California</option>
+        <option>Texas</option>
+        <option>New York</option>
+        <option>Florida</option>
+      </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td><b>Zip</b></td>
+    <td><input type="text"></td>
+  </tr>
+
+  <tr>
+    <td><h2>Additional Information</h2></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Please enter your name, company or organization as you would like it to appear in our publications:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><b>Name</b></td>
+    <td><input type="text"></td>
+  </tr>
+
+  <tr>
+    <td><input type="checkbox"> I would like my gift to remain anonymous.</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><input type="checkbox"> My employer offers a matching gift program. I will mail the matching gift form.</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><input type="checkbox"> Please save the cost of acknowledging this gift by not mailing a thank you letter.</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><b>Comments</b><br><small>(Please type any questions or feedback here)</small></td>
+    <td><textarea rows="5" cols="30"></textarea></td>
+  </tr>
+
+  <tr>
+    <td><b>How may we contact you?</b></td>
+    <td>
+      <input type="checkbox"> E-mail<br>
+      <input type="checkbox"> Postal Mail<br>
+      <input type="checkbox"> Telephone<br>
+      <input type="checkbox"> Fax
+    </td>
+  </tr>
+
+  <tr>
+    <td>I would like to receive newsletters and information about special events by:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+      <input type="checkbox"> E-mail<br>
+      <input type="checkbox"> Postal Mail
+    </td>
+  </tr>
+
+  <tr>
+    <td><input type="checkbox"> I would like information about volunteering.</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><input type="reset" value="Reset"></td>
+    <td><input type="submit" value="Continue"></td>
+  </tr>
+
+</table>
+
+    </form>
+</body>
+</html>
